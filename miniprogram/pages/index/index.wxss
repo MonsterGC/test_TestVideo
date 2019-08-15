@@ -1,0 +1,41 @@
+.box {
+  width: 90%;
+  float: left;
+  background-color: white;
+  margin: 25px 15px;
+  border-radius: 5px;
+}
+
+.box2 {
+  background-color: #ede89a;
+}
+
+.shadow2 {
+  position: relative;
+}
+
+.shadow2 {
+  box-shadow: 0 1px 4px rgba(196, 192, 192, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.shadow2:before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  top: 140px;
+  bottom: 15px;
+  left: 30px;
+  background-color: #e7d296;
+  z-index: -1;
+  -webkit-box-shadow: 0 23px 17px 0 #e7d296;
+  -moz-box-shadow: 0 23px 17px 0 #e7d296;
+  box-shadow: 0 23px 17px 0 #e7d296;
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+view{
+  color: #fff;
+  font-size: 0.8rem;
+}

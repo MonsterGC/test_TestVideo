@@ -1,0 +1,17 @@
+<view class="box box2 shadow2">
+  <view>
+    <image style="width:90%;" src="{{image_url}}"></image>
+  </view>
+  <view style="position:relative;top:-90px;left:30px;">
+    <view style="font-size:1.3rem;">{{length}}</view>
+    <view style="display:flex;flex-direction:row;">
+      <view style="margin-top:10px;margin-left:-10px;">{{title}}</view>
+      <view style="margin-left:20px;margin-top:10px;">{{date}}</view>
+    </view>
+  </view>
+  <view style="font-size:1rem;padding:10px;margin-top:-60px;">
+    <block wx:for="{{video}}">
+      <video style="padding:10px;" src="{{item.video_url}}"></video>
+    </block>
+  </view>
+</view>
